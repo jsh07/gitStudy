@@ -20,3 +20,8 @@ git merge 원본 브랜치명
 - git commit
 
 - 브랜치가 merge 됐다고 삭제되지는 않음
+* merge 완료된 브랜치 삭제 방법
+git branch -d 브랜치명
+
+* merge 안 한 브랜치 삭제 방법
+git branch -D 브랜치명
