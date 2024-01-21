@@ -1,0 +1,20 @@
+Git 커밋 비교
+
+* 최근 commit vs 현재 파일 차이점 보기 (쓰레기같음)
+git diff
+git difftool
+
+- git difftool은 Vim 에디터로 시각적으로 보여줌
+- h j k l 가 방향키
+- 끝내고 싶으면 :q 입력
+
+* 현재파일 vs 특정커밋 비교
+git difftool 커밋아이디
+git difftool 커밋아이디1 커밋아이디2
+
+* Vim에디터 싫고 VSCode 에디터 쓰고싶으면?
+git config --global diff.tool vscode 
+git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+
+* 그냥 에디터 부가기능 설치하셈..
+Extensions에서 git 검색해서 나오는 거 아무거나 설치해도 git diff보다 좋음 - git Graph
