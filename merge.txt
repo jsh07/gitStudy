@@ -32,6 +32,7 @@ git merge 새로운브랜치명
 
 4. squash and merge
 - 새 브랜치의 커밋을 합쳐서 중심브랜치의 커밋처럼 한줄로 커밋로그 남겨줌
+- 선 없이 순간이동한다고 보면 됨
 - git log, history 깔끔해짐
 
 git swtich 중심브랜치명
