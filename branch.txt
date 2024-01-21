@@ -18,3 +18,5 @@ git merge 원본 브랜치명
 - 원하는 코드만 남기고
 - git add
 - git commit
+
+- 브랜치가 merge 됐다고 삭제되지는 않음
