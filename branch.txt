@@ -1,1 +1,20 @@
-충돌되는 구간
+협업 시 브랜치 만들어서 사용하면 좋음
+브랜치는 프로젝트 복사본과 같다
+
+* 코드 복사본 만들기 : branch
+git branch 브랜치명
+
+* 브랜치로 이동
+git switch 브랜치명
+
+* 브랜치 합치기 (merge)
+- 만든 브랜치로 가서 원래 브랜치(보통 main)에 합침
+git switch 합칠 브랜치명
+git merge 원본 브랜치명
+
+- 근데 두 브랜치가 같은 파일, 같은 줄을 수저했으면 conflict 일어날 수 있음
+
+* Conflict 해결법
+- 원하는 코드만 남기고
+- git add
+- git commit
