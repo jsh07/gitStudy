@@ -1,0 +1,22 @@
+* 파일 복구하기
+- 파일이 최근 커밋 상태로 돌아감
+git restore 파일명
+
+ - 특정 commit 시점으로 파일 복구
+git restore --source 커밋아이디 파일명
+
+- staging 취소
+git restore --staged 파일명
+
+
+* 커밋 취소하기
+- 방금 커밋 취소
+git revert HEAD
+
+- 특정 커밋 취소
+git revert 커밋아이디1, 커밋아이디2, ...
+
+
+* 과거로 되돌리기
+- 협업시에 사용 금지
+git reset --hard 커밋아이디
