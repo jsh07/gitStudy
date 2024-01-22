@@ -1,6 +1,7 @@
 로컬 저장소는 불안하니 원격 저장소에 백업을 해두자.
 
 * 현재 작업 폴더에 있는 로컬 저장소를 원격 저장소로 push
+- 로컬에서 만든 branch로 push하면 원격저장소에 branch 자동생성됨
 git push -u 원격저장소주소 올릴로컬브랜치명
 
 - git에서 변수 문법 사용 가능 (보통 origin)
@@ -29,3 +30,9 @@ git pull = git fetch + git merge
 
 
 결론 : git push 하기 전에 git pull 부터 해야 함
+
+
+원격 저장소의 merge
+- github의 경우에는 pull request
+- 원격저장소에서도 로컬에서 하듯 branch 만들고 merge 가능(pull request)
+    - comment 달고, 코드리뷰 등 가능
