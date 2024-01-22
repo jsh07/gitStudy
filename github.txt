@@ -9,3 +9,15 @@ git push -u 원격저장소주소 올릴로컬브랜치명
 git remote add 변수명 주소
 git push -u 변수명 올릴브랜치명
 git push
+
+
+협업하기
+* 원격저장소 복제
+git clone 저장소주소
+
+- 팀원의 github아이디를 등록해놔야 git push 가능
+- 원격 저장소에 변동 사항이 생기면 (다른 팀원이 git push 하면) git push 불가
+- git pull 이용
+
+* 원격 저장소에 있는 내용을 로컬 저장소와 합치기
+git pull 원격저장소주소 브랜치명
