@@ -4,5 +4,8 @@
 git push -u 원격저장소주소 올릴로컬브랜치명
 
 - git에서 변수 문법 사용 가능 (보통 origin)
+- git push 시 -u 추가하면 주소를 기억하라는 뜻
+    - 한 번 추가해서 썼으면 다음엔 git push 만 써도 됨
 git remote add 변수명 주소
 git push -u 변수명 올릴브랜치명
+git push
